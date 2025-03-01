@@ -1,1 +1,163 @@
+#body{ 
+    background-color: rgb(94, 93, 91);
+    color: rgb(46, 85, 7);
+    color: orange;
+}
+
+#menu{
+    background-color: lightgray;
+    font-weight: 50;
+    padding-left: 10%;
+    color: rgb(9, 10, 10);
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+#ins{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+      
+}
+
+#pres{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+
+}
+
+#presnext{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+
+
+#preslast{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white; 
+}
+
+#update{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+
+#clear{
+    background-color: blueviolet;
+   
+    font-weight: 800;
+    color: white;
+}
+
+#searchcod{
+    background-color: red;
+    color: aqua;
+    font-weight: 800;
+
+}
+
+#searchname{
+    background-color: red;
+    color: aqua;
+    font-weight: 800;
+
+}
+
+#searchautor{
+    background-color: red;
+    color: aqua;
+    font-weight: 800;
+}
+
+#searchlocal{
+    background-color: red;
+    color: aqua;
+    font-weight: 800;
+}
+
+#menudois{ 
+    background-color: lightgray;
+    font-weight: 50;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: black;
+  }
+
+#text1{
+   
+    width: 40%;
+}
+
+#connect{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+#txtInserir{
+width: 100%;
+}
+.inserir{
+    background-color: lightGRAY;
+    color: black;
+    padding-left: 10%;
+    font-weight: 800;
+}
+#limparIns{
+
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+#update{
+
+    background-color: lightgray;
+    padding-left: 10%;
+    font-weight: 800;
+    color: black;
+}
+#atual{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+
+}
+#clear{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+
+}
+#excluir{
+    background-color: lightgray;
+    padding-left: 10%;
+font-weight: 800;
+color: black;
+}
+
+
+#xd{
+    background-color:lightgray
+    color= bisque;
+}
+#limpar{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+#apre{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
+#last{
+    background-color: blueviolet;
+    font-weight: 800;
+    color: white;
+}
 
