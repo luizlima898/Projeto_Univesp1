@@ -13,9 +13,9 @@ jobs:
       mysql:
         image: mysql:8.0
         env:
-          MYSQL_ROOT_PASSWORD: root
+          MYSQL_ROOT_PASSWORD: estoque2025
           MYSQL_DATABASE: estoque
-          MYSQL_USER: root
+          MYSQL_USER: luiz
           MYSQL_PASSWORD: mavinga898
         ports:
           - 3306:3306
