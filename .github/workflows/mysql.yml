@@ -1,0 +1,37 @@
+name: Setup MySQL Database
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  setup-mysql:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: estoque
+          MYSQL_USER: root
+          MYSQL_PASSWORD: password
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --host=localhost --user=root --password=root"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - name: Projeto_Univesp1
+        uses: actions/checkout@v3
+
+      - name: Wait for MySQL to be ready
+        run: sleep 15
+
+      - name: Test MySQL Connection
+        run: |
+          mysql -h 127.0.0.1 -u root -proot -e "SHOW DATABASES;"
