@@ -1,1 +1,1 @@
-
+CREATE TABLE estoque (codigo INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR (200), estoque INT, local VARCHAR(100) UNIQUE);
