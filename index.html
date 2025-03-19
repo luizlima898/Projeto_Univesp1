@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>EMPRESA VELOX</title>
+    <title>EMPRESA VISOFLEX</title>
 
 </head>
 <body id = "body">
-    <h1>CONTROLE DE ESTOQUE DA EMPRESA VELOX</h1>
+    <h1>CONTROLE DE ESTOQUE DA EMPRESA VISOFLEX/h1>
     
 <div class = "inserir" >
  <form action="https://luizlima898.github.io/Projeto_Univesp1/" method="post" id = "inside">   
+     <h1> Inserir dados no Estoque</h1>
  <input type="submit" value="INSERIR" id = "ins">   
 <label for="codigo">Código:</label>
 <input type="text" name="codigo" id="txtCodigo" >
@@ -26,3 +27,50 @@
 <input type="submit" value="EXCLUIR" id = "excluir">
  </form>
  </div> 
+<div id = "apresentar">
+<form action = ="https://luizlima898.github.io/Projeto_Univesp1/" method="post" id = "present">
+    <h1>Apresentar dados do Estoque </h1>
+ <input type="submit" value="APRESENTAR" id = "ins">   
+    <table id="tabela-dados">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Estoque</th>
+                <th>Local</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os dados da tabela serão preenchidos aqui dinamicamente -->
+        </tbody>
+    </table>
+</form>
+</div>
+
+<div id = pesquisar>
+<form action = "\add" method = "post" id = "research">
+    <h1>Pesquisar Dados do Estoque</h1>
+		<label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required>
+        <label for="nome">Nome:</label>
+        <input type="nome" id="nome" name="nome" required>
+       	<label for="estoque">Estoque:</label>
+        <input type="estoque" id="estoque" name="estoque" required>
+        <label for="local">Local:</label>
+        <input type="local" id="local" name="local" required>
+	<button type="submit" onclick = "fetchPesquisar()">Pesquisar</button>
+	<table id="tabela-dados">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Estoque</th>
+                <th>Local</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os dados da tabela serão preenchidos aqui dinamicamente -->
+        </tbody>
+    </table>
+</form>
+</div>
