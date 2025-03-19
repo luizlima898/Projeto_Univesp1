@@ -4,21 +4,16 @@
 
 #inserir{
     background-color: blue;
-  
-    color: red;
+
 }
 
 #apresentar{
-background-color: blue;
-   
-    color: orange;
-}
+background-color: purple;
+    }
 
 #pesquisar{
-background-color: blue;
-   
-    color: orange;
-}
+background-color: gray;
+     }
 
 #tabela-dados{
  table {
