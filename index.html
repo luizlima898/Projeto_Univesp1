@@ -12,7 +12,7 @@
     <h1>CONTROLE DE ESTOQUE DA EMPRESA VISOFLEX</h1>
     
 <div id = "inserir" >
- <form action="https://luizlima898.github.io/Projeto_Univesp1/" method="post" id = "inside">   
+ <form action="https://luizlima898.github.io/Projeto_Univesp1/" method="post" id = "insert">   
      <h1> Inserir dados no Estoque</h1>
  <input type="submit" value="INSERIR" id = "ins">   
 <label for="codigo">Código:</label>
@@ -48,9 +48,10 @@
 </div>
 
 <div id = pesquisar>
-<form action = "\add" method = "post" id = "research">
+<form action = "\add" method = "post" id = "search">
     <h1>Pesquisar Dados do Estoque</h1>
-		<label for="codigo">Código:</label>
+	 <input type="submit" value="PESQUISAR" id = "pesq">   
+	<label for="codigo">Código:</label>
         <input type="text" id="codigo" name="codigo" required>
         <label for="nome">Nome:</label>
         <input type="nome" id="nome" name="nome" required>
@@ -58,7 +59,7 @@
         <input type="estoque" id="estoque" name="estoque" required>
         <label for="local">Local:</label>
         <input type="local" id="local" name="local" required>
-	<button type="submit" onclick = "fetchPesquisar()">Pesquisar</button>
+	
 	<table id="tabela-dados">
         <thead>
             <tr>
@@ -68,6 +69,7 @@
                 <th>Local</th>
             </tr>
         </thead>
+		
         <tbody>
             <!-- Os dados da tabela serão preenchidos aqui dinamicamente -->
         </tbody>
